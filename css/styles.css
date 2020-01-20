@@ -511,6 +511,7 @@ header .container {
 .tf_container {
     width: 1110px;
     height: 320px;
+    overflow: hidden;
 }
 
 .tf_container .text_frame {
