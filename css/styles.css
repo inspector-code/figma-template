@@ -231,6 +231,10 @@ header .container {
     background: rgb(1, 84, 143);
 }
 
+.main_link a:active {
+    background: rgb(1, 68, 116);
+}
+
 .main_text div {
     font-family: Merriweather;
     font-style: normal;
@@ -277,6 +281,10 @@ header .container {
 
 .main_buttons button:hover {
     opacity: 0.2;
+}
+
+.main_buttons button:active {
+    opacity: 0.3;
 }
 
 .main_buttons button:nth-child(2) img {
@@ -489,6 +497,10 @@ header .container {
     opacity: 0.2;
 }
 
+.list__prev_next button:active {
+    opacity: 0.3;
+}
+
 .list__prev_next button:nth-child(2) img {
     transform: rotate(180deg);
 }
@@ -671,6 +683,11 @@ header .container {
 
 .sendformbutton:hover {
     background: rgb(1, 84, 143);
+    
+}
+
+.sendformbutton:active {
+    background: rgb(1, 68, 116);
     
 }
 
