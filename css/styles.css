@@ -272,6 +272,10 @@ header .container {
     justify-content: space-between;
 }
 
+.main_buttons button img {
+    height: 40%;
+}
+
 .main_buttons button {
     width: 60px;
     height: 60px;
@@ -290,7 +294,7 @@ header .container {
     opacity: 0.3;
 }
 
-.main_buttons button:nth-child(2) img {
+.main_buttons button:nth-child(1) img {
     transform: rotate(180deg);
 }
 
@@ -497,15 +501,20 @@ header .container {
     transition: 0.08s linear;
 }
 
+.list__prev_next button img {
+    height: 40%;
+}
+
 .list__prev_next button:hover {
     opacity: 0.2;
 }
 
 .list__prev_next button:active {
     opacity: 0.3;
+    background: white;
 }
 
-.list__prev_next button:nth-child(2) img {
+.list__prev_next button:nth-child(1) img {
     transform: rotate(180deg);
 }
 
